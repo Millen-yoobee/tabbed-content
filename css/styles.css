@@ -1,9 +1,27 @@
-body {
+/*body {
 
-	background-color: #ff0000; /*New company color*/
+	background-color: #ff0000;
+}*/  
 
-	/*This is a comment line in a css file.*/
-
-
-
+section {
+	width: 800px;
+	display: none;
 }
+
+main {
+	width: 800px;
+	margin: 0 auto;
+}
+#section-one { 
+	background-color: red; 
+	display: block;
+}
+#section-two { background-color: orange; }
+#section-three { background-color: yellow; }
+#section-four { background-color: green; }
+#section-five { background-color: blue; }
+
+ul li {   /* to display the butttons side by side  */
+	display: inline-block;
+}
+
